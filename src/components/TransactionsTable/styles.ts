@@ -14,14 +14,27 @@ export const Container = styled.div`
             text-align: left;
             line-height: 1.5rem;
     
+            
         }
 
         td{
-            border-radius: 1rem;
+            border-radius: 0.25rem;    
             padding: 1rem 2rem;
             border: 0;
             background-color: var(--shape);
             color: var(--text-body);
+
+            &:first-child{
+                color: var(--text-title);
+            }
+
+            &.withdraw{
+                color: var(--red);
+            }
+
+            &.deposit {
+                color: var(--green)
+            }
             
         }
     }

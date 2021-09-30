@@ -15,7 +15,7 @@ export const Container = styled.div`
         color: var(--text-title);
 
         &.change-background{
-            background: var(--green);
+            background-color: var(--green);
         }
     }
 
